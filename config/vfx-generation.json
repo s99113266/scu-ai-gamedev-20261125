@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "effects": [
+    {
+      "id": "pulse",
+      "transparent": true,
+      "output": "assets/vfx/pulse.png",
+      "fps": 20,
+      "status": "integrated",
+      "trigger": "普通射擊",
+      "frames": 4,
+      "anchor": "普通炮口或雙翼根",
+      "loop": true,
+      "frameHeight": 20,
+      "frameWidth": 12,
+      "generator": "PixelFX",
+      "prompt": "2D 正俯視縱向射擊，左上光源。青白短脈衝向畫面上方飛行，雙發共用同一圖集"
+    },
+    {
+      "energyDrainMultiplier": [
+        1,
+        2,
+        2.5
+      ],
+      "frameHeight": 32,
+      "status": "integrated",
+      "widthMultiplier": [
+        1,
+        1.75,
+        3
+      ],
+      "fadeMs": 280,
+      "prompt": "2D 正俯視縱向射擊，左上光源。青白槍口光暈，最高階紫紅；光束由機首筆直向上，Phaser 按能量控制長度、寬度與消退",
+      "cameraShake": [
+        0,
+        0.002,
+        0.008
+      ],
+      "output": "assets/vfx/laser-muzzle.png",
+      "riseMs": 100,
+      "transparent": true,
+      "id": "laser",
+      "anchor": "機首中央",
+      "generator": "PixelFX + Phaser",
+      "frames": 4,
+      "loop": true,
+      "fps": 20,
+      "trigger": "空白鍵啟動及升階",
+      "frameWidth": 32,
+      "stageThreeOutput": "assets/vfx/laser-muzzle-magenta.png"
+    },
+    {
+      "id": "impact",
+      "transparent": true,
+      "output": "assets/vfx/impact.png",
+      "fps": 17,
+      "status": "integrated",
+      "trigger": "命中、擊破、正確消除鍵、整框完成",
+      "frames": 8,
+      "anchor": "命中點或被擊破機體中心",
+      "loop": false,
+      "frameHeight": 48,
+      "frameWidth": 48,
+      "generator": "PixelFX + Phaser",
+      "prompt": "2D 正俯視縱向射擊，左上光源。黃白火心向四周炸開，噴出金屬碎屑、暗煙快速散去；逐鍵縮小播放，整框完成從出題艦身噴出並短促閃光震動",
+      "bossSampleReview": "開發者確認艦身爆破清楚可見"
+    },
+    {
+      "prompt": "2D 正俯視縱向射擊，左上光源。青白碎點短暫向外散去，粒子不遮側面敵彈",
+      "anchor": "敵彈與雷射交點",
+      "generator": "Phaser",
+      "trigger": "光束截到敵彈或霰彈",
+      "status": "integrated",
+      "id": "bullet-cancel"
+    },
+    {
+      "prompt": "2D 正俯視縱向射擊，左上光源。細警告線跟隨瞄準，起衝即熄滅；半圓陣各自錯時顯示",
+      "anchor": "各衝刺機機首",
+      "generator": "Phaser",
+      "trigger": "敵機瞄準至鎖定",
+      "status": "integrated",
+      "id": "dash-warning"
+    },
+    {
+      "prompt": "2D 正俯視縱向射擊，左上光源。暖色亮芯圓點。隕石從隨機環帶位置放出 5～30 發，各自速度、角度獨立",
+      "anchor": "敵機炮口或隕石裂點",
+      "generator": "Phaser",
+      "trigger": "敵方發射或隕石觸發散彈",
+      "status": "integrated",
+      "id": "enemy-fire"
+    },
+    {
+      "prompt": "2D 正俯視縱向射擊，左上光源。琥珀散熱口隨裝甲開合；一次只顯示一個 A/S/D 框。戰場凍結期間維持倒數、按鍵與命中回饋",
+      "anchor": "散熱口與畫面下方提示框",
+      "generator": "Phaser + UI",
+      "trigger": "Boss 開口或發動消除攻擊",
+      "status": "integrated",
+      "id": "boss-cue"
+    },
+    {
+      "prompt": "2D 正俯視縱向射擊，左上光源。綠十字或金色雙箭頭短暫閃亮，滿血維修轉能源時能源條同步增加",
+      "anchor": "拾取點",
+      "generator": "Phaser",
+      "trigger": "維修或武器補給入手",
+      "status": "integrated",
+      "id": "pickup"
+    },
+    {
+      "prompt": "2D 正俯視縱向射擊，左上光源。機身局部暖色閃光與少量碎屑，保留輪廓及後續來彈可見性",
+      "anchor": "玩家機身",
+      "generator": "Phaser",
+      "trigger": "扣血",
+      "status": "integrated",
+      "id": "player-hit"
+    }
+  ]
+}

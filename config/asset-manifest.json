@@ -1,0 +1,391 @@
+{
+  "assets": [
+    {
+      "status": "approved",
+      "loader": "Phaser.load.image",
+      "size": [
+        40,
+        40
+      ],
+      "type": "image",
+      "path": "public/assets/images/scout-base.png",
+      "id": "scout",
+      "displaySize": [
+        40,
+        40
+      ]
+    },
+    {
+      "path": "public/assets/vfx/impact.png",
+      "status": "sample_ready",
+      "size": [
+        384,
+        48
+      ],
+      "source": "PixelFX impacts/crit-hit",
+      "loader": "Phaser.load.spritesheet",
+      "frames": 8,
+      "id": "boss-impact",
+      "fps": 17,
+      "frameSize": [
+        48,
+        48
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "displaySize": [
+        26,
+        28
+      ],
+      "loader": "Phaser.load.image",
+      "path": "public/assets/images/patrol-base.png",
+      "status": "approved",
+      "type": "image",
+      "size": [
+        26,
+        28
+      ],
+      "id": "patrol"
+    },
+    {
+      "displaySize": [
+        30,
+        26
+      ],
+      "loader": "Phaser.load.image",
+      "path": "public/assets/images/crosswing-base.png",
+      "status": "approved",
+      "type": "image",
+      "size": [
+        30,
+        26
+      ],
+      "id": "crosswing"
+    },
+    {
+      "displaySize": [
+        24,
+        28
+      ],
+      "loader": "Phaser.load.image",
+      "path": "public/assets/images/runner-base.png",
+      "status": "approved",
+      "type": "image",
+      "size": [
+        24,
+        28
+      ],
+      "id": "runner"
+    },
+    {
+      "displaySize": [
+        28,
+        30
+      ],
+      "loader": "Phaser.load.image",
+      "path": "public/assets/images/raider-base.png",
+      "status": "approved",
+      "type": "image",
+      "size": [
+        28,
+        30
+      ],
+      "id": "raider"
+    },
+    {
+      "displaySize": [
+        52,
+        54
+      ],
+      "loader": "Phaser.load.image",
+      "path": "public/assets/images/armor-base.png",
+      "status": "approved",
+      "type": "image",
+      "size": [
+        52,
+        54
+      ],
+      "id": "armor"
+    },
+    {
+      "displaySize": [
+        20,
+        22
+      ],
+      "loader": "Phaser.load.image",
+      "path": "public/assets/images/hidden_scout-base.png",
+      "status": "approved",
+      "type": "image",
+      "size": [
+        20,
+        22
+      ],
+      "id": "hidden_scout"
+    },
+    {
+      "status": "approved",
+      "loader": "Phaser.load.image / TileSprite",
+      "id": "homeport-back",
+      "path": "public/assets/images/homeport-back.png",
+      "type": "background",
+      "size": [
+        480,
+        720
+      ],
+      "displaySize": [
+        480,
+        720
+      ]
+    },
+    {
+      "status": "approved",
+      "loader": "Phaser.load.image / TileSprite",
+      "id": "homeport-edge",
+      "path": "public/assets/images/homeport-edge.png",
+      "type": "background",
+      "size": [
+        480,
+        720
+      ],
+      "displaySize": [
+        480,
+        720
+      ]
+    },
+    {
+      "status": "approved",
+      "loader": "Phaser.load.image / TileSprite",
+      "id": "shipyard-back",
+      "path": "public/assets/images/shipyard-back.png",
+      "type": "background",
+      "size": [
+        480,
+        720
+      ],
+      "displaySize": [
+        480,
+        720
+      ]
+    },
+    {
+      "status": "approved",
+      "loader": "Phaser.load.image / TileSprite",
+      "id": "shipyard-edge",
+      "path": "public/assets/images/shipyard-edge.png",
+      "type": "background",
+      "size": [
+        480,
+        720
+      ],
+      "displaySize": [
+        480,
+        720
+      ]
+    },
+    {
+      "status": "approved",
+      "loader": "Phaser.load.image / TileSprite",
+      "id": "blockade-back",
+      "path": "public/assets/images/blockade-back.png",
+      "type": "background",
+      "size": [
+        480,
+        720
+      ],
+      "displaySize": [
+        480,
+        720
+      ]
+    },
+    {
+      "status": "approved",
+      "loader": "Phaser.load.image / TileSprite",
+      "id": "blockade-edge",
+      "path": "public/assets/images/blockade-edge.png",
+      "type": "background",
+      "size": [
+        480,
+        720
+      ],
+      "displaySize": [
+        480,
+        720
+      ]
+    },
+    {
+      "type": "boss",
+      "displaySize": [
+        94,
+        52
+      ],
+      "loader": "Phaser.load.image",
+      "size": [
+        94,
+        52
+      ],
+      "id": "mini-closed",
+      "status": "approved",
+      "path": "public/assets/images/mini-closed.png"
+    },
+    {
+      "type": "boss",
+      "displaySize": [
+        94,
+        52
+      ],
+      "loader": "Phaser.load.image",
+      "size": [
+        94,
+        52
+      ],
+      "id": "mini-open",
+      "status": "approved",
+      "path": "public/assets/images/mini-open.png"
+    },
+    {
+      "type": "boss",
+      "displaySize": [
+        112,
+        58
+      ],
+      "loader": "Phaser.load.image",
+      "size": [
+        112,
+        58
+      ],
+      "id": "flagship-closed",
+      "status": "approved",
+      "path": "public/assets/images/flagship-closed.png"
+    },
+    {
+      "type": "boss",
+      "displaySize": [
+        112,
+        58
+      ],
+      "loader": "Phaser.load.image",
+      "size": [
+        112,
+        58
+      ],
+      "id": "flagship-left",
+      "status": "approved",
+      "path": "public/assets/images/flagship-left.png"
+    },
+    {
+      "type": "boss",
+      "displaySize": [
+        112,
+        58
+      ],
+      "loader": "Phaser.load.image",
+      "size": [
+        112,
+        58
+      ],
+      "id": "flagship-right",
+      "status": "approved",
+      "path": "public/assets/images/flagship-right.png"
+    },
+    {
+      "displaySize": [
+        50,
+        50
+      ],
+      "id": "rock",
+      "type": "obstacle",
+      "path": "public/assets/images/rock-base.png",
+      "status": "integrated",
+      "size": [
+        50,
+        50
+      ],
+      "loader": "Phaser.load.image"
+    },
+    {
+      "displaySize": [
+        18,
+        18
+      ],
+      "id": "repair",
+      "type": "pickup",
+      "path": "public/assets/images/repair-base.png",
+      "status": "integrated",
+      "size": [
+        18,
+        18
+      ],
+      "loader": "Phaser.load.image"
+    },
+    {
+      "displaySize": [
+        18,
+        18
+      ],
+      "id": "weapon",
+      "type": "pickup",
+      "path": "public/assets/images/weapon-base.png",
+      "status": "integrated",
+      "size": [
+        18,
+        18
+      ],
+      "loader": "Phaser.load.image"
+    },
+    {
+      "size": [
+        48,
+        20
+      ],
+      "type": "spritesheet",
+      "fps": 20,
+      "source": "PixelFX projectiles/plasma-shot",
+      "status": "integrated",
+      "id": "pulse",
+      "loader": "Phaser.load.spritesheet",
+      "frameSize": [
+        12,
+        20
+      ],
+      "frames": 4,
+      "path": "public/assets/vfx/pulse.png"
+    },
+    {
+      "size": [
+        128,
+        32
+      ],
+      "type": "spritesheet",
+      "fps": 20,
+      "source": "PixelFX projectiles/plasma-shot",
+      "status": "integrated",
+      "id": "laser-muzzle",
+      "loader": "Phaser.load.spritesheet",
+      "frameSize": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "path": "public/assets/vfx/laser-muzzle.png"
+    },
+    {
+      "size": [
+        128,
+        32
+      ],
+      "type": "spritesheet",
+      "fps": 20,
+      "source": "PixelFX projectiles/plasma-shot",
+      "status": "integrated",
+      "id": "laser-muzzle-magenta",
+      "loader": "Phaser.load.spritesheet",
+      "frameSize": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "path": "public/assets/vfx/laser-muzzle-magenta.png"
+    }
+  ]
+}

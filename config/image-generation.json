@@ -1,0 +1,296 @@
+{
+  "assets": [
+    {
+      "id": "scout",
+      "category": "player",
+      "description": "舊象牙白短翼機身、磚紅雙引擎罩、中央深色座艙，左右翼根砲與機首雷射口清楚",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。機首向上。舊象牙白短翼機身、磚紅雙引擎罩、中央深色座艙，左右翼根砲與機首雷射口清楚。目標顯示 40 × 40 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/player_master.png",
+        "references/concept.png"
+      ],
+      "displayWidth": 40,
+      "displayHeight": 40,
+      "direction": "機首向上",
+      "transparent": true,
+      "outputs": [
+        "assets/images/scout-base.png"
+      ],
+      "priority": 1,
+      "status": "approved"
+    },
+    {
+      "id": "patrol",
+      "category": "enemy",
+      "description": "縱列巡邏機，窄直翼與槍灰背甲",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。機首向下。縱列巡邏機，窄直翼與槍灰背甲。目標顯示 26 × 28 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 26,
+      "displayHeight": 28,
+      "direction": "機首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/patrol-base.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "crosswing",
+      "category": "enemy",
+      "description": "橫移機，寬翼展與兩側導流板",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。機首向下。橫移機，寬翼展與兩側導流板。目標顯示 30 × 26 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 30,
+      "displayHeight": 26,
+      "direction": "機首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/crosswing-base.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "runner",
+      "category": "enemy",
+      "description": "疾行機，流線鼻錐與緊收的後掠翼",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。機首向下。疾行機，流線鼻錐與緊收的後掠翼。目標顯示 24 × 28 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 24,
+      "displayHeight": 28,
+      "direction": "機首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/runner-base.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "raider",
+      "category": "enemy",
+      "description": "半圓編隊衝刺機，前傾楔形裝甲，機首有瞄準燈座",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。機首向下。半圓編隊衝刺機，前傾楔形裝甲，機首有瞄準燈座。目標顯示 28 × 30 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 28,
+      "displayHeight": 30,
+      "direction": "機首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/raider-base.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "armor",
+      "category": "enemy",
+      "description": "大裝甲戰機，寬肩與疊層裝甲，耐打輪廓",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。機首向下。大裝甲戰機，寬肩與疊層裝甲，耐打輪廓。目標顯示 52 × 54 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 52,
+      "displayHeight": 54,
+      "direction": "機首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/armor-base.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "rock",
+      "category": "obstacle",
+      "description": "有裂縫的浮游隕石，輪廓粗糙不規則",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。正俯視，無固定朝向。有裂縫的浮游隕石，輪廓粗糙不規則。目標顯示 50 × 50 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 50,
+      "displayHeight": 50,
+      "direction": "正俯視，無固定朝向",
+      "transparent": true,
+      "outputs": [
+        "assets/images/rock-base.png"
+      ],
+      "priority": 2,
+      "status": "integrated"
+    },
+    {
+      "id": "hidden_scout",
+      "category": "enemy",
+      "description": "隕石藏匿的小追蹤機，細窄機身與單尾噴口，可隨航向旋轉",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。機首向下。隕石藏匿的小追蹤機，細窄機身與單尾噴口，可隨航向旋轉。目標顯示 20 × 22 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 20,
+      "displayHeight": 22,
+      "direction": "機首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/hidden_scout-base.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "mini",
+      "category": "boss",
+      "description": "攔截艦，中央可動裝甲板與散熱口；製作閉合及中央開啟兩幀",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。艦首向下。攔截艦，中央可動裝甲板與散熱口；製作閉合及中央開啟兩幀。目標顯示 94 × 52 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 94,
+      "displayHeight": 52,
+      "direction": "艦首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/mini-closed.png",
+        "assets/images/mini-open.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "flagship",
+      "category": "boss",
+      "description": "槍灰重甲指揮艦，對稱裝甲；製作閉合、左開、右開三幀，開口露出琥珀色散熱片",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。艦首向下。槍灰重甲指揮艦，對稱裝甲；製作閉合、左開、右開三幀，開口露出琥珀色散熱片。目標顯示 112 × 58 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 112,
+      "displayHeight": 58,
+      "direction": "艦首向下",
+      "transparent": true,
+      "outputs": [
+        "assets/images/flagship-closed.png",
+        "assets/images/flagship-left.png",
+        "assets/images/flagship-right.png"
+      ],
+      "priority": 2,
+      "status": "approved"
+    },
+    {
+      "id": "repair",
+      "category": "pickup",
+      "description": "綠色十字形維修件，暗描邊與亮芯",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。正俯視，無固定朝向。綠色十字形維修件，暗描邊與亮芯。目標顯示 18 × 18 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 18,
+      "displayHeight": 18,
+      "direction": "正俯視，無固定朝向",
+      "transparent": true,
+      "outputs": [
+        "assets/images/repair-base.png"
+      ],
+      "priority": 2,
+      "status": "integrated"
+    },
+    {
+      "id": "weapon",
+      "category": "pickup",
+      "description": "金色雙箭頭武器模組，金屬外框",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。正俯視，無固定朝向。金色雙箭頭武器模組，金屬外框。目標顯示 18 × 18 像素。透明背景，置中、完整輪廓，所有狀態幀共用中心與畫布。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 18,
+      "displayHeight": 18,
+      "direction": "正俯視，無固定朝向",
+      "transparent": true,
+      "outputs": [
+        "assets/images/weapon-base.png"
+      ],
+      "priority": 2,
+      "status": "integrated"
+    },
+    {
+      "id": "homeport",
+      "category": "background",
+      "description": "斷電母港與斷裂友艦，兩側殘骸，中段航道留暗",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。沿航線向下捲動，上下可接縫。斷電母港與斷裂友艦，兩側殘骸，中段航道留暗。目標顯示 480 × 720 像素。背景層與透明邊景層分開輸出。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 480,
+      "displayHeight": 720,
+      "direction": "沿航線向下捲動，上下可接縫",
+      "transparent": false,
+      "outputs": [
+        "assets/images/homeport-back.png",
+        "assets/images/homeport-edge.png"
+      ],
+      "priority": 3,
+      "status": "approved"
+    },
+    {
+      "id": "shipyard",
+      "category": "background",
+      "description": "廢棄船塢、吊臂、未完工艦體，中段航道留暗",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。沿航線向下捲動，上下可接縫。廢棄船塢、吊臂、未完工艦體，中段航道留暗。目標顯示 480 × 720 像素。背景層與透明邊景層分開輸出。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 480,
+      "displayHeight": 720,
+      "direction": "沿航線向下捲動，上下可接縫",
+      "transparent": false,
+      "outputs": [
+        "assets/images/shipyard-back.png",
+        "assets/images/shipyard-edge.png"
+      ],
+      "priority": 3,
+      "status": "approved"
+    },
+    {
+      "id": "blockade",
+      "category": "background",
+      "description": "恢復供電的船廠出口、兩側規律航標，中央決戰區留暗",
+      "generator": "內建 ImageGen",
+      "prompt": "2D 正俯視縱向射擊，原創手繪軍事街機像素，左上光。沿航線向下捲動，上下可接縫。恢復供電的船廠出口、兩側規律航標，中央決戰區留暗。目標顯示 480 × 720 像素。背景層與透明邊景層分開輸出。 不包含文字、HUD、雷射或子彈。",
+      "references": [
+        "references/concept.png"
+      ],
+      "displayWidth": 480,
+      "displayHeight": 720,
+      "direction": "沿航線向下捲動，上下可接縫",
+      "transparent": false,
+      "outputs": [
+        "assets/images/blockade-back.png",
+        "assets/images/blockade-edge.png"
+      ],
+      "priority": 3,
+      "status": "approved"
+    }
+  ]
+}

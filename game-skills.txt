@@ -1,0 +1,31 @@
+game-feel
+game-ui-ux
+level-design
+procedural-gen
+pixelfx
+agent-sprite-forge
+shader-programming
+mattpocock/skills
+
+課前安裝｜在練習專案中開啟終端機，先以 node -v、npm -v、git --version 確認工具可用。
+下列指令透過 skills 安裝器選擇 Codex。安裝後重新開啟專案，確認能列出所選技能。
+
+遊戲設計、操作回饋、介面、生成與著色器
+https://github.com/gamedev-skills/awesome-gamedev-agent-skills
+npx skills@latest add gamedev-skills/awesome-gamedev-agent-skills --skill game-feel game-ui-ux level-design procedural-gen shader-programming
+
+像素技能特效（課堂主線）
+https://github.com/patch-gg/pixelfx
+npx skills@latest add patch-gg/pixelfx --skill pixelfx
+要重新匯出圖集，另需 git clone https://github.com/patch-gg/pixelfx.git
+
+角色與素材製作工具組
+https://github.com/0x0funky/agent-sprite-forge
+npx skills@latest add 0x0funky/agent-sprite-forge
+依上游選取整組技能。agent-sprite-forge 是套件名稱。
+
+釐清需求與架構
+https://github.com/mattpocock/skills
+npx skills@latest add mattpocock/skills
+選 setup-matt-pocock-skills、grill-with-docs、improve-codebase-architecture 及其需要的配套技能。
+在自己的練習專案執行 /setup-matt-pocock-skills，選擇本機檔案。用 /grill-with-docs 定義規則，完成後用 /improve-codebase-architecture 檢查修改範圍的路徑。

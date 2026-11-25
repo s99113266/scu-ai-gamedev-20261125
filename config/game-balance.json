@@ -1,0 +1,121 @@
+{
+  "cycleSeconds": 80,
+  "sectors": [
+    {
+      "name": "母港",
+      "pursuitSeconds": 22,
+      "restSeconds": 16,
+      "pursuitWaveIntervalSeconds": 1.15,
+      "cruiseWaveIntervalSeconds": 2.25,
+      "durationSeconds": 120
+    },
+    {
+      "name": "造船廠",
+      "pursuitSeconds": 18,
+      "restSeconds": 20,
+      "pursuitWaveIntervalSeconds": 1.55,
+      "cruiseWaveIntervalSeconds": 2.65,
+      "durationSeconds": 180
+    },
+    {
+      "name": "封鎖線",
+      "pursuitSeconds": 24,
+      "restSeconds": 15,
+      "pursuitWaveIntervalSeconds": 1.25,
+      "cruiseWaveIntervalSeconds": 1.95,
+      "durationSeconds": 240
+    }
+  ],
+  "exitSurgeSeconds": 30,
+  "exitWaveIntervalSeconds": 1.2,
+  "firstWaveDelaySeconds": 0.4,
+  "player": {
+    "speedPixelsPerSecond": 245,
+    "fireIntervalSeconds": 0.19,
+    "maxHp": 5,
+    "bulletSpeedPixelsPerSecond": 510,
+    "invincibleSeconds": 1.2
+  },
+  "laser": {
+    "capacitySeconds": 8,
+    "fadeSeconds": 0.28,
+    "stages": [
+      {
+        "frequency": 1,
+        "width": 1,
+        "drain": 1,
+        "forward": 0.8,
+        "drift": 8,
+        "shake": 0,
+        "damage": 1
+      },
+      {
+        "frequency": 1.5,
+        "width": 1.75,
+        "drain": 2,
+        "forward": 0.6,
+        "drift": 16,
+        "shake": 0.002,
+        "damage": 1
+      },
+      {
+        "frequency": 2,
+        "width": 3,
+        "drain": 2.5,
+        "forward": 0.4,
+        "drift": 24,
+        "shake": 0.008,
+        "damage": 2
+      }
+    ]
+  },
+  "boss": {
+    "hp": {
+      "mini": 100,
+      "final": 192,
+      "carrier": 560
+    },
+    "supplyIntervalSeconds": 24,
+    "pairedHp": {
+      "mini": 90,
+      "final": 172
+    }
+  },
+  "pickup": {
+    "repairDropChance": 0.02,
+    "energySeconds": 2,
+    "armoredModuleChance": 0.12,
+    "restCyclesPerRepair": 3
+  },
+  "weapon": {
+    "miniBossXp": 12,
+    "armoredKillXp": 4,
+    "thresholds": [
+      0,
+      15,
+      65,
+      170,
+      350
+    ],
+    "rapidMultiplier": 1.5,
+    "rapidSeconds": 15,
+    "moduleXp": 8,
+    "killXp": 1
+  },
+  "score": {
+    "enemy": 100,
+    "armor": 300,
+    "mini": 1000,
+    "final": 2000,
+    "doubleMiniAbove": 18000,
+    "mixedAbove": 31000,
+    "doubleFinalAbove": 50000,
+    "carrierAbove": 90000,
+    "carrier": 6000
+  },
+  "economy": {
+    "startingCash": 40,
+    "enemyBounty": 2,
+    "armorBounty": 8
+  }
+}

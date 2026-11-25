@@ -1,0 +1,303 @@
+{
+ "frames": [
+  {
+   "filename": "crit-hit 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 1",
+   "frame": {
+    "x": 216,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 2",
+   "frame": {
+    "x": 432,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 3",
+   "frame": {
+    "x": 0,
+    "y": 136,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 4",
+   "frame": {
+    "x": 216,
+    "y": 136,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 5",
+   "frame": {
+    "x": 432,
+    "y": 136,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 6",
+   "frame": {
+    "x": 0,
+    "y": 272,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 7",
+   "frame": {
+    "x": 216,
+    "y": 272,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 8",
+   "frame": {
+    "x": 432,
+    "y": 272,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 9",
+   "frame": {
+    "x": 0,
+    "y": 408,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 10",
+   "frame": {
+    "x": 216,
+    "y": 408,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  },
+  {
+   "filename": "crit-hit 11",
+   "frame": {
+    "x": 432,
+    "y": 408,
+    "w": 216,
+    "h": 136
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 216,
+    "h": 136
+   },
+   "sourceSize": {
+    "w": 216,
+    "h": 136
+   },
+   "duration": 83
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "crit-hit.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 648,
+   "h": 544
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "crit-hit",
+    "from": 0,
+    "to": 11,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "impacts/crit-hit",
+   "name": "Critical hit",
+   "fps": 12,
+   "loop": false,
+   "frames": 12,
+   "frameSize": [
+    216,
+    136
+   ],
+   "pivot": [
+    84,
+    106
+   ],
+   "columns": 3
+  }
+ }
+}
