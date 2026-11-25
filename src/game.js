@@ -33,21 +33,21 @@ const ammoStats={pulse:{rate:1,damage:1},lance:{rate:1.75,damage:0.8},crescent:{
 const routes=['homeport','shipyard','blockade'];
 class Flight extends Phaser.Scene {
   preload(){
-    this.load.image('side-shield','/assets/images/side-shield.png');
-    for(const key of ['roof-mount','roof-launcher'])this.load.image(key,'/assets/images/'+key+'.png');
-    this.load.image('carrier-deck','/assets/images/carrier-deck.png');
-    this.load.spritesheet('pulse','/assets/vfx/pulse.png',{frameWidth:12,frameHeight:20});
+    this.load.image('side-shield',import.meta.env.BASE_URL+'assets/images/side-shield.png');
+    for(const key of ['roof-mount','roof-launcher'])this.load.image(key,import.meta.env.BASE_URL+'assets/images/'+key+'.png');
+    this.load.image('carrier-deck',import.meta.env.BASE_URL+'assets/images/carrier-deck.png');
+    this.load.spritesheet('pulse',import.meta.env.BASE_URL+'assets/vfx/pulse.png',{frameWidth:12,frameHeight:20});
     for(const key of ['laser-muzzle','laser-muzzle-magenta']){
-      this.load.spritesheet(key,'/assets/vfx/'+key+'.png',{frameWidth:32,frameHeight:32});
+      this.load.spritesheet(key,import.meta.env.BASE_URL+'assets/vfx/'+key+'.png',{frameWidth:32,frameHeight:32});
     }
-    for(const key of ['mini-closed','mini-open','flagship-closed','flagship-left','flagship-right'])this.load.image(key,'/assets/images/'+key+'.png');
+    for(const key of ['mini-closed','mini-open','flagship-closed','flagship-left','flagship-right'])this.load.image(key,import.meta.env.BASE_URL+'assets/images/'+key+'.png');
     for(const route of routes)for(const layer of ['back','edge']){
       const key=route+'-'+layer;
-      this.load.image(key,'/assets/images/'+key+'.png');
+      this.load.image(key,import.meta.env.BASE_URL+'assets/images/'+key+'.png');
     }
-    for(const id of [...enemyTextures,'repair','weapon'])this.load.image(id,'/assets/images/'+id+'-base.png');
-    this.load.image('scout','/assets/images/scout-base.png');
-    this.load.spritesheet('boss-impact','/assets/vfx/impact.png',{frameWidth:48,frameHeight:48});
+    for(const id of [...enemyTextures,'repair','weapon'])this.load.image(id,import.meta.env.BASE_URL+'assets/images/'+id+'-base.png');
+    this.load.image('scout',import.meta.env.BASE_URL+'assets/images/scout-base.png');
+    this.load.spritesheet('boss-impact',import.meta.env.BASE_URL+'assets/vfx/impact.png',{frameWidth:48,frameHeight:48});
   }
   create(){
     const blade=this.textures.createCanvas('crescent-blade',32,24);

@@ -37,7 +37,7 @@ export function unlockAudio(){
     output.connect(limiter);
     limiter.connect(context.destination);
     for(const name of Object.keys(levels)){
-      fetch('/assets/audio/'+name+'.wav')
+      fetch(import.meta.env.BASE_URL+'assets/audio/'+name+'.wav')
         .then(response=>response.arrayBuffer())
         .then(bytes=>context.decodeAudioData(bytes))
         .then(buffer=>{
@@ -83,7 +83,7 @@ export function setMusic(name){
   }
   if(!name)return;
   if(!tracks.has(name)){
-    const track=new Audio('/assets/audio/'+name+'.ogg');
+    const track=new Audio(import.meta.env.BASE_URL+'assets/audio/'+name+'.ogg');
     track.loop=true;
     track.volume=.38;
     tracks.set(name,track);
